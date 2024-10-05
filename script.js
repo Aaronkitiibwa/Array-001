@@ -1,11 +1,9 @@
-//make a new array having data types of the elements of the Aaron array
+//return an array of ages using the years array above
 
-const Aaron = ["prince", "Kitiibwa", 2024 - 1993, "Engineer", true];
-const types = [];
-//console data type of every element in the array
-for (let i = 0; i < Aaron.length; i++) {
-  console.log(typeof Aaron[i]);
+const years = [1993, 1994, 1995, 1996];
 
-  types[i] = typeof Aaron[i];
+const ages = [];
+for (i = 0; i < years.length; i++) {
+  ages.push(2024 - years[i]);
 }
-console.log(types);
+console.log(ages);
